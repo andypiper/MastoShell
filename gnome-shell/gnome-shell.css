@@ -1,0 +1,84 @@
+/* 2025/03/07 */
+/* Andy Piper */
+
+/*
+ * Normal use
+ */
+
+/* Top bar */
+
+#panel {
+    background-color: #17063B;
+    /* brand dark purple 2 */
+}
+
+#panel .panel-button {
+    color: #dddddd;
+}
+
+/* Workspace switch indicator */
+
+.workspace-switcher {
+    background-color: rgba(86, 58, 204, 0.85);
+    /* brand mid purple 2 */
+}
+
+/* Workspace pager */
+.workspace-thumbnails {
+    padding: 6px;
+}
+
+.workspace-thumbnails .workspace-thumbnail {
+    background-color: #2F0C7A;
+    border-radius: 8px;
+    border: 1px solid transparent;
+}
+
+.workspace-thumbnails .placeholder {
+    width: 20px;
+}
+
+/*
+ * Workspace overview mode
+ */
+
+/* Top bar */
+
+#panel:overview {
+    background-color: #2F0C7A;
+    /* brand dark purple 2 */
+}
+
+#panel:overview .panel-button {
+    color: #eeeeee;
+}
+
+/* Overview screen */
+
+#overviewGroup {
+    background-color: rgba(133, 138, 250, 0.9);
+    /* brand light purple */
+}
+
+.app-folder {
+    background-color: rgba(86, 58, 204, 0.85);
+    /* brand mid purple 2 */
+}
+
+.app-folder-dialog {
+    background-color: #2F0C7A;
+    /* brand dark purple 2 */
+}
+
+.overview-tile:hover,
+.grid-search-result:hover,
+.overview-tile:active,
+.grid-search-result:active {
+    background-color: rgba(86, 58, 204, 0.85);
+    /* brand mid purple 2 */
+}
+
+.search-section-content {
+    background-color: #2F0C7A;
+    /* brand dark purple 2 */
+}

@@ -1,0 +1,10 @@
+[X-GNOME-Metatheme]
+Name=MastoShell
+Type=X-GNOME-Metatheme
+Comment=Mastodon Brand GNOME Shell Theme
+Encoding=UTF-8
+GtkTheme=Adwaita
+MetacityTheme=Adwaita
+IconTheme=Adwaita
+CursorTheme=Adwaita
+CursorSize=24
